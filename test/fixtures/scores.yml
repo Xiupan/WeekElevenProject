@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: scores
+#
+#  id         :integer          not null, primary key
+#  user_id    :integer
+#  quiz_id    :integer
+#  total      :float
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: one
+  quiz_id: one
+  total: 1.5
+
+two:
+  user_id: two
+  quiz_id: two
+  total: 1.5
